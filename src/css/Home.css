@@ -1,0 +1,54 @@
+.tabs-root-wrapper {
+	margin-top: 30px;
+}
+.tabs-root-wrapper > div {
+	width: 100%; 
+}
+
+.no-tab-label {
+	margin-top: 30px; margin-bottom: 30px;
+	display: block; width: 100%;
+	text-align: center; color: gray; font-size: 16px;
+	transition: font-size 0.2s ease-in-out, color 0.15s linear;
+}
+.no-tab-label:hover {
+	color: rgb(66, 66, 66);
+	font-size: 18px;
+}
+
+.tabs-list-wrapper {
+	display: flex; flex-direction: row;
+	white-space: nowrap; overflow-x: auto;
+	border-bottom: 1px solid gray;
+}
+.tabs-list-wrapper > div {
+	transition-property: background, color; transition: 0.2s ease-in-out;
+	cursor: pointer; margin-right: 2px;
+	background: rgba(128, 128, 128, 0.1); color: #0d6efd;
+	border-top-left-radius: 5px; border-top-right-radius: 5px;
+	padding: 5px;
+	padding-left: 15px; padding-right: 15px;
+}
+.tabs-list-wrapper > div:hover {
+	background: rgba(128, 128, 128, 0.5);
+}
+.tabs-list-wrapper > .active-tab,
+.tabs-list-wrapper > .active-tab:hover {
+	cursor: default;
+	background: #0d6efd; color: white;
+	border-bottom: none;
+}
+
+.tabs-content-wrapper {
+	padding: 25px;
+	border: 1px solid gray; border-top: none;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.tab-content {
+	width: 100%;
+}
+.tab-content > span {
+	font-weight: 500;
+}
