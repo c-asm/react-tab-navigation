@@ -8,6 +8,7 @@ Tab-based navigation in React application.
 - [Feautres](#feautres)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Demo](#demo)
 - [Contributing](#contributing)
 
 ## Built with
@@ -30,6 +31,12 @@ Tab-based navigation in React application.
 
 1. `npm start` to run dev. server (check if the app works)
 2. `npm build` to make a build, for more info: https://create-react-app.dev/docs/deployment/
+
+## Demo
+
+User experience:
+
+https://user-images.githubusercontent.com/59118268/222973332-55051a97-a397-45aa-a23c-cc4ce52e753d.mp4
 
 ## Contributing
 
